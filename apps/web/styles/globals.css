@@ -1,0 +1,18 @@
+:root {
+  --color-primary: #C58B7B;
+  --color-secondary: #8F5F4A;
+  --color-neutral: #F8F4F1;
+  --color-text: #4A2F2B;
+  --color-accent: #D9B5AA;
+  --font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+}
+* { box-sizing: border-box; }
+html, body, #__next { height: 100%; }
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  color: var(--color-text);
+  background: var(--color-neutral);
+}
+.container { max-width: 1200px; margin: 0 auto; padding: 1rem; }
+```__
