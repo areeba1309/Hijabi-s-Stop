@@ -1,1 +1,9 @@
-
+node_modules/
+.vite/
+.next/
+.env
+.env.local
+dist/
+build/
+.idea/
+.vscode/
