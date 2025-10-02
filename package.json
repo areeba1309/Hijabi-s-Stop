@@ -1,1 +1,36 @@
-
+{
+  "name": "hijabis-stop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "next": "13.x",
+    "react": "18.x",
+    "react-dom": "18.x",
+    "classnames": "^2.3.1",
+    "axios": "^0.21.1",
+    "sass": "^1.63.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-next": "12.x",
+    "prettier": "^2.8.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.0",
+    "typescript": "^5.0.4",
+    "@types/react": "^18.0.0",
+    "@types/node": "^18.0.0"
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx,json,css,scss,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
